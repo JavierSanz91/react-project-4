@@ -4,25 +4,25 @@ import Joke from "./Joke"
 export default function App() {
     return (
         <div>
-            <Joke 
-                setup="I got my daughter a fridge for her birthday."
-                punchline="I can' wait to see her face kight up when she opens it"
-            />
-            <Joke 
-                setup="How did the hacker escape the police?"
-                punchline="He just ransomware!"
-            />
-            <Joke 
-                setup="Why don't pirates travel on mountain roads?"
-                punchline="Scurvy"
-            />
-            <Joke 
-                setup="Why do bees stay in the hive in the winter?"
-                punchline="Swarm."
-            />
-            <Joke 
+            <Joke
                 setup="What are two things you can never eat for breakfast?"
                 punchline="Lunch and Dinner"
+            />
+            <Joke
+                setup="What is always coming but never arrives?"
+                punchline="Tomorrow"
+            />
+            <Joke
+                setup="What gets wetter the more it dries? "
+                punchline="A towel"
+            />
+            <Joke
+                setup="What can be broken but never held?"
+                punchline="A promise"
+            />
+            <Joke
+                setup="What word is spelled incorrectly in every single dictionary?"
+                punchline="Incorrectly"
             />
         </div>
     )

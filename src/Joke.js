@@ -1,10 +1,11 @@
 import React from "react"
 
-export default function Joke(props) {
+export default function Joke(promp) {
     return (
         <div>
-            <h3>{props.setup}</h3>
-            <h3>{props.punchline}</h3>
+            <h3>{promp.setup}</h3>
+            <p>{promp.punchline}</p>
+            <br />
             <hr />
         </div>
     )
